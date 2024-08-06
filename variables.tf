@@ -64,10 +64,10 @@ variable "k8sClusterName" {
 #   nullable    = true
 # }
 
-# variable "aks_cidr" {
-#     description = "CIDR for PODs inside AKS"
-#     nullable = false
-# }
+variable "aks_cidr" {
+    description = "CIDR for PODs inside AKS"
+    nullable = false
+}
 
 # variable "APIM_Name" {
 #     description = "API Management Service Name"
